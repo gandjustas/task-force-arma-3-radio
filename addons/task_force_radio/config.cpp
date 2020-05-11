@@ -9,17 +9,17 @@ class CfgPatches
 		author = "[TF]Nkey";
 		authorUrl = "https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
-		version = 0.9.12;
-		versionStr = "0.9.12";
-		versionAr[] = {0,9,12};
+		version = "0.9.13";
+		versionStr = "0.9.13";
+		versionAr[] = {0,9,13};
 	};
 };
 
-#include "\task_force_radio\CfgFunctions.h"
+#include "CfgFunctions.h"
 class task_force_radio_settings {
 };
-#include "\task_force_radio\description.h"
-#include "\task_force_radio\RscTitles.hpp"
+#include "description.h"
+#include "RscTitles.hpp"
 
 class CfgSounds
 {
