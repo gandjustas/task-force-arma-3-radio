@@ -1,18 +1,29 @@
-/arma3/@task_force_radio/task_force_radio_pipe.dll
-/arma3/@task_force_radio/task_force_radio_pipe/Debug
-/arma3/@task_force_radio/task_force_radio_pipe/ipch
-/arma3/@task_force_radio/task_force_radio_pipe/task_force_radio_pipe.sdf
-/arma3/@task_force_radio/task_force_radio_pipe/task_force_radio_pipe.suo
-/arma3/@task_force_radio/task_force_radio_pipe/task_force_radio_pipe.vcxproj.filters
-/arma3/@task_force_radio/task_force_radio_pipe/task_force_radio_pipe.opensdf
-/arma3/@task_force_radio/task_force_radio_pipe/task_force_radio_pipe.vcxproj.user
+/addons/*.pbo
+/addons/task_force_radio_items/texHeaders.bin
+/addons/task_force_radio_items.log
+/addons/task_force_radio.log
+/addons/*.biprivatekey
+/addons/task_force_radio/texHeaders.bin
+/addons/task_force_radio.pbo.bak
 
-/arma3/@task_force_radio/addons/task_force_radio.pbo.bak
+
+/task_force_radio_pipe.dll
+/task_force_radio_pipe/Debug
+/task_force_radio_pipe/Release
+/task_force_radio_pipe/ipch
+/task_force_radio_pipe/task_force_radio_pipe.sdf
+/task_force_radio_pipe/task_force_radio_pipe.vcxproj.filters
+/task_force_radio_pipe/task_force_radio_pipe.opensdf
+/task_force_radio_pipe/task_force_radio_pipe.vcxproj.user
+/task_force_radio_pipe/exe
+/task_force_radio_pipe/*.suo
+
 /ts/bin/plugins/task_force_radio.ilk
 /ts/bin/plugins/task_force_radio.pdb
 /ts/bin/plugins/task_force_radio.dll
 /ts/bin/plugins/task_force_radio.lib
 /ts/bin/plugins/task_force_radio.exp
+/ts/src/Release
 /ts/src/Debug
 /ts/src/ipch
 /ts/src/task_force_radio_plugin.sdf
@@ -25,26 +36,14 @@
 /ts/task_force_radio_plugin.sdf
 /ts/task_force_radio_plugin.sln
 /ts/task_force_radio_plugin.suo
-/arma3/@task_force_radio/task_force_radio_pipe/exe
-/arma3/@task_force_radio/addons/task_force_radio.log
-/arma3/@task_force_radio/addons/*.biprivatekey
-/arma3/@task_force_radio/addons/task_force_radio/texHeaders.bin
 
 /ts/src/acre.log
 
-/arma3/@task_force_radio/addons/task_force_radio_items.log
 
+/addons/DSSignFile.exe
+/keys/DSCreateKey.exe
 
-/arma3/@task_force_radio/addons/task_force_radio_items/texHeaders.bin
-
-/debug/TaskForceRadioDebug.Stratis/task_force_radio/rt1523g/Thumbs.db
-
-/arma3/@task_force_radio/task_force_radio_pipe/Release
-
-/ts/src/Release
 /ts/*.suo
-/arma3/@task_force_radio/addons/*.pbo
-/debug/TaskForceRadioDebug.Altis/*.sqm_bk
 /misc/documentation-generator/*.iws
 /misc/documentation-generator/*.ipr
 /misc/documentation-generator/*.iml
@@ -52,8 +51,5 @@
 /misc/documentation-generator/.gradle
 /misc/documentation-generator/.idea
 /misc/documentation-generator/classes
-/arma3/@task_force_radio/task_force_radio_pipe/*.suo
-/arma3/@task_force_radio/addons/DSSignFile.exe
-/arma3/@task_force_radio/keys/DSCreateKey.exe
 *.suo
 *.opendb
