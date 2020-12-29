@@ -211,7 +211,7 @@ void Context::save(const std::string &file) {
 	if (file.empty())
 		return;
 	
-	_fdump = fopen(file.c_str(), "wb");
+	fopen_s(&_fdump,file.c_str(), "wb");
 }
 
 void Context::init(const AudioSpec &spec) {

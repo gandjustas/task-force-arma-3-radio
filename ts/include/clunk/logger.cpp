@@ -41,7 +41,7 @@ const std::string clunk::format_string(const char *fmt, ...) {
 	char static_buf[FORMAT_BUFFER_SIZE];
 
     va_start(ap, fmt);    
-   	int r = vsnprintf (static_buf, FORMAT_BUFFER_SIZE - 1, fmt, ap);
+   	int r = _vsnprintf_s (static_buf, FORMAT_BUFFER_SIZE - 1, fmt, ap);
     va_end(ap);
 
     if (r > -1 && r <= FORMAT_BUFFER_SIZE) 
@@ -54,7 +54,7 @@ const std::string clunk::format_string(const char *fmt, ...) {
     while(true) {
 		buf.set_size(size);
 	    va_start(ap, fmt);    
-    	int r = vsnprintf (static_cast<char *>(buf.get_ptr()), size - 1, fmt, ap);
+    	int r = _vsnprintf_s (static_cast<char *>(buf.get_ptr()), size - 1, size, fmt, ap);
 	    va_end(ap);
 	    if (r > -1 && r <= size) 
     		return std::string(static_cast<char *>(buf.get_ptr()), r);

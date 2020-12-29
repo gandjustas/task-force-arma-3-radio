@@ -96,8 +96,8 @@ namespace clunk {
 	}
 
 	Sample * WavFile::load(Context &context, const std::string &fname) {
-		FILE *f = fopen(fname.c_str(), "rb");
-		if (!f)
+		FILE* f;
+		if (fopen_s(&f, fname.c_str(), "rb"))
 			throw std::runtime_error("cannot open file: " + fname);
 		WavFile wav(f);
 		wav.read();

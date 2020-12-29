@@ -29,7 +29,7 @@
 
 void clunk::Exception::add_message(const char *file, int line) {
 	char buf[1024];
-	snprintf(buf, sizeof(buf), "[%s:%d] ", file, line);
+	_snprintf_s(buf, sizeof(buf), 1024, "[%s:%d] ", file, line);
 	message += buf;
 }
 
@@ -43,7 +43,7 @@ void clunk::IOException::add_custom_message() {
 	memset(buf, 0, sizeof(buf));
 
 #ifdef _MSC_VER
-	strncpy(buf, _strerror(NULL), sizeof(buf));
+    _strerror_s(buf, sizeof(buf), NULL);
 #else 
 	strncpy(buf, strerror(errno), sizeof(buf));
 //	if (strerror_r(errno, buf, sizeof(buf)-1) != 0) perror("strerror");

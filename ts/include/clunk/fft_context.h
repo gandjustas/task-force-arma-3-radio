@@ -20,6 +20,7 @@
 */
 
 
+#include <corecrt_math_defines.h>
 #include <complex>
 #include <assert.h>
 

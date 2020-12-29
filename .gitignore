@@ -1,3 +1,5 @@
+.vs
+.vscode
 /addons/*.pbo
 /addons/task_force_radio_items/texHeaders.bin
 /addons/task_force_radio_items.log
@@ -8,6 +10,8 @@
 
 
 /task_force_radio_pipe.dll
+/task_force_radio_pipe_x64.dll
+/task_force_radio_pipe/.vs
 /task_force_radio_pipe/Debug
 /task_force_radio_pipe/Release
 /task_force_radio_pipe/ipch
@@ -25,12 +29,17 @@
 /ts/bin/plugins/task_force_radio.exp
 /ts/src/Release
 /ts/src/Debug
+/ts/src/Win32Debug
 /ts/src/ipch
 /ts/src/task_force_radio_plugin.sdf
 /ts/src/task_force_radio_plugin.opensdf
 /ts/src/task_force_radio_plugin.vcxproj.filters
 /ts/src/task_force_radio_plugin.vcxproj.user
 /ts/ipch
+
+/ts/plugin/x64
+/ts/plugin/x32
+
 
 /ts/task_force_radio_plugin.opensdf
 /ts/task_force_radio_plugin.sdf
@@ -53,3 +62,10 @@
 /misc/documentation-generator/classes
 *.suo
 *.opendb
+
+/*.exp
+/*.ilk
+/*.lib
+/*.pdb
+/*.iobj
+/*.ipdb

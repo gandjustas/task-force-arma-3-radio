@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{179dfc7b-c37c-466d-9d7e-5f3b7b23172f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Dsp">
+      <UniqueIdentifier>{e6100d68-382f-4522-983b-6a2d9a5596ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\sqlite">
+      <UniqueIdentifier>{cefc3fd1-af11-49e2-9acc-540465a6d23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\simpleSource">
+      <UniqueIdentifier>{706bd794-a0d6-4b02-ab52-536f7b833c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\clunk">
+      <UniqueIdentifier>{b306b231-cb2f-4876-bd01-3b3a1d8fa1fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\include\dspfilters\source\Bessel.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Biquad.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Butterworth.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Cascade.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\ChebyshevI.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\ChebyshevII.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Custom.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Design.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Documentation.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Elliptic.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Filter.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Legendre.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\Param.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\PoleFilter.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\RBJ.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\RootFinder.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\dspfilters\source\State.cpp">
+      <Filter>External\Dsp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\sqlite3\sqlite3.c">
+      <Filter>External\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\simpleSource\SimpleComp.cpp">
+      <Filter>External\simpleSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\simpleSource\SimpleEnvelope.cpp">
+      <Filter>External\simpleSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\simpleSource\SimpleGate.cpp">
+      <Filter>External\simpleSource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\simpleSource\SimpleLimit.cpp">
+      <Filter>External\simpleSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
